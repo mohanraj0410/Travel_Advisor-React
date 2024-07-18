@@ -1,0 +1,47 @@
+/* Header.css */
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  flex-grow: 1;
+  display: none;
+}
+
+.title.show {
+  display: block;
+}
+
+.search {
+  position: relative;
+  border-radius: 4px; /* Assuming a border radius of 4px */
+  background-color: white;
+  margin-right: 16px; /* Assuming theme.spacing(2) is 16px */
+  margin-left: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search.wide {
+  margin-left: 24px; /* Assuming theme.spacing(3) is 24px */
+  width: auto;
+}
+
+
+.inputRoot {
+  color: inherit;
+}
+
+.inputInput {
+  padding: 8px 8px 8px 0; /* Assuming theme.spacing(1) is 8px */
+  padding-left: calc(1em + 32px); /* Assuming theme.spacing(4) is 32px */
+  transition: width 0.3s; /* Assuming theme.transitions.create('width') results in a 0.3s transition */
+  width: 100%;
+}
+
+.inputInput.wide {
+  width: 20ch;
+}

@@ -1,0 +1,52 @@
+/* styles.css */
+
+.card {
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.cardMedia {
+  height: 250px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.typography {
+  margin-bottom: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.chip {
+  margin: 5px 5px 5px 0;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.spacing {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cardActions {
+  justify-content: space-between;
+  padding: 0 16px 16px 16px;
+}
